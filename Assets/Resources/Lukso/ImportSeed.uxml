@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Wallet/default.uss?fileID=7433441132597879392&amp;guid=c5ad99edb5af7f841b47a82f02a28e4a&amp;type=3#default" />
+    <ui:GroupBox class="containerBackground">
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="Back" />
+        <ui:VisualElement name="containerImportSeed" class="containerImportSeed" style="flex-wrap: wrap; background-color: rgba(49, 77, 121, 0); margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;" />
+        <ui:Button text="Confirm" display-tooltip-when-elided="true" name="Confirm" />
+    </ui:GroupBox>
+</ui:UXML>

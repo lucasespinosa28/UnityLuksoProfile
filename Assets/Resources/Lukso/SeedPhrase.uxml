@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Wallet/default.uss?fileID=7433441132597879392&amp;guid=c5ad99edb5af7f841b47a82f02a28e4a&amp;type=3#default" />
+    <ui:GroupBox style="background-color: rgb(173, 173, 173);">
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="Back" />
+        <ui:VisualElement name="ContainerSeed" class="containerSeed" style="background-color: rgba(49, 77, 121, 0); width: 100%; margin-left: 6px; margin-right: 6px; margin-top: 6px; margin-bottom: 6px;" />
+        <ui:Button text="Confirm" display-tooltip-when-elided="true" name="ConfirmStep1" />
+        <ui:VisualElement name="ConfirmSeed" class="hidden">
+            <ui:TextField picking-mode="Ignore" label="Text Field" is-delayed="false" name="FirstWord" />
+            <ui:TextField picking-mode="Ignore" label="Text Field" name="SecondWord" />
+            <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" name="ThirdWord" />
+            <ui:Button text="Confirm" display-tooltip-when-elided="true" enable-rich-text="true" name="ConfirmStep2" />
+        </ui:VisualElement>
+    </ui:GroupBox>
+</ui:UXML>

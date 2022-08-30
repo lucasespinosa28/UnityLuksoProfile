@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Wallet/default.uss?fileID=7433441132597879392&amp;guid=c5ad99edb5af7f841b47a82f02a28e4a&amp;type=3#default" />
+    <ui:GroupBox class="containerBackground" style="background-color: rgb(173, 173, 173);">
+        <ui:Button text="Close" display-tooltip-when-elided="true" name="CloseButton" />
+        <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="Welcome" style="font-size: 24px; -unity-text-align: upper-center;" />
+        <ui:TextField picking-mode="Ignore" label="Address" name="Address" readonly="true" />
+        <ui:TextField picking-mode="Ignore" label="Profile Addres" name="ProfileAddress" />
+        <ui:Button tabindex="-1" text="Import Profile" display-tooltip-when-elided="true" name="ImportProfile" />
+        <ui:Button tabindex="-1" text="New Profile" display-tooltip-when-elided="true" name="NewProfile" />
+    </ui:GroupBox>
+</ui:UXML>

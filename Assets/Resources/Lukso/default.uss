@@ -1,0 +1,64 @@
+.containerImportSeed {
+    background-color: red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ImportSeedInput {
+    color: black;
+    height: 35px;
+    width: 31%;
+    -unity-font-style: bold;
+    font-size: 18px;
+}
+
+.text_new_password {
+    -unity-text-align: upper-center;
+    font-size: 24px;
+}
+
+.Error_input_password {
+    border-left-color: red;
+    border-right-color: red;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.containerSeed {
+    background-color: green;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.avatar {
+    width: 280px;
+    height: 280px;
+    background-image: url('project://database/Assets/Resources/avatar.jpg?fileID=2800000&guid=d30a976db8b48654796ea4f7bb23a89b&type=3#avatar');
+}
+
+.containerBackground {
+    width: auto;
+    height: auto;
+    background-color: rgb(173, 173, 173);
+    -unity-background-image-tint-color: rgb(40, 40, 40);
+}

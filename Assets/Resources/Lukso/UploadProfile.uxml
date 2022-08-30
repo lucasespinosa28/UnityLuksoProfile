@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Wallet/default.uss?fileID=7433441132597879392&amp;guid=c5ad99edb5af7f841b47a82f02a28e4a&amp;type=3#default" />
+    <ui:GroupBox style="background-color: rgb(173, 173, 173);">
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="Back" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1">
+            <ui:GroupBox>
+                <ui:Button tabindex="-1" text="Upload Avatar Image" display-tooltip-when-elided="true" name="UploadAvatar" />
+                <ui:TextField picking-mode="Ignore" label="Hash" readonly="true" name="HashAvatar" />
+                <ui:TextField picking-mode="Ignore" label="Url" readonly="true" name="UrlAvatar" />
+            </ui:GroupBox>
+            <ui:GroupBox>
+                <ui:Button tabindex="-1" text="Upload Brackground Image" display-tooltip-when-elided="true" name="UploadBrackground" />
+                <ui:TextField picking-mode="Ignore" label="Hash" readonly="true" name="BrackgroundHash" />
+                <ui:TextField picking-mode="Ignore" label="Url" readonly="true" name="BackgroundUrl" />
+            </ui:GroupBox>
+            <ui:GroupBox>
+                <ui:TextField picking-mode="Ignore" label="Name" name="NameInput" style="top: auto;" />
+                <ui:TextField picking-mode="Ignore" label="Description" multiline="true" name="DescriptionInput" style="height: 152px;" />
+                <ui:Button text="UploadProfile" display-tooltip-when-elided="true" name="UploadProfile" enable-rich-text="true" />
+                <ui:TextField picking-mode="Ignore" label="Profile Url" name="ProfileUrl" />
+            </ui:GroupBox>
+            <ui:GroupBox>
+                <ui:Button tabindex="-1" text="Deploy Profile Contract" display-tooltip-when-elided="true" name="DeployButton" />
+                <ui:TextField picking-mode="Ignore" label="Address" name="ContractAddress" />
+            </ui:GroupBox>
+            <ui:Button tabindex="-1" text="Update" display-tooltip-when-elided="true" name="Update" />
+        </ui:ScrollView>
+    </ui:GroupBox>
+</ui:UXML>
